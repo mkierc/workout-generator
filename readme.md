@@ -1,6 +1,16 @@
 # Workout Generator
 
-Generate random sets of physical exercises from [Jordan Yeoh Fitness][1].
+Generate random sets of physical exercises from [Jordan Yeoh Fitness][1]:
+
+```
+λ workout.py
+
+992 requests from random.org are left available today.
+How many sets? 3
+3-Minute No Gym Fat Burning                 https://www.youtube.com/watch?v=XZQy3kqlbnM        0
+3-Minute Fat Burning Progression            https://www.youtube.com/watch?v=lyxCEbNAVpQ        0
+9 Minutes Fat Burning: Round 2/3            https://www.youtube.com/watch?v=YUEs8yQ-MBs&t=191  0
+```
 
 It was really boring for me to do 3-4 rounds of the exact same workout, so I ended up generating
 a set of integers from [random.org][2] and did few different workout routines.
