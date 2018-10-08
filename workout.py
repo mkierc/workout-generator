@@ -34,6 +34,7 @@ def generate_set_of_workouts(sets: int, rand: RandomOrgClient):
         Workout('10 Minute Intensive Fat Burning: Round 1/3', 'https://www.youtube.com/watch?v=GDe_MwdCTI0', 0),
         Workout('10 Minute Intensive Fat Burning: Round 2/3', 'https://www.youtube.com/watch?v=GDe_MwdCTI0&t=160', 0),
         Workout('10 Minute Intensive Fat Burning: Round 3/3', 'https://www.youtube.com/watch?v=GDe_MwdCTI0&t=362', 0),
+        Workout('4 min Super Workout for Beginners', 'https://www.youtube.com/watch?v=Z9_2HrUsHw4', 0),
     ]
 
     no_of_workouts = len(workouts) - 1
