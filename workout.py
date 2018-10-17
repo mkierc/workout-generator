@@ -1,3 +1,6 @@
+import os
+import sys
+
 from rdoclient_py3 import RandomOrgClient
 
 
@@ -46,7 +49,8 @@ def generate_set_of_workouts(sets: int, rand: RandomOrgClient):
 
 
 def main():
-    rand = RandomOrgClient(open('api.key').readline())
+    api_key = open(os.path.join(sys.path[0], 'api.key')).readline()
+    rand = RandomOrgClient(api_key)
     print(str(rand.get_requests_left()) + ' requests from random.org are left available today.')
 
     sets = int(input('How many sets? '))
